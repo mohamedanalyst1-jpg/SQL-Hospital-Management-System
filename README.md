@@ -10,8 +10,7 @@ The database manages hospital operations including patients, doctors, department
 
 ## Entity Relationship Diagram (ERD)
 
-![Hospital ERD](images/Screenshot%202026-05-09%20174124.png)
-
+![Hospital ERD](images/hospital_erd.png)
 ---
 
 ## Database Tables
