@@ -1,24 +1,43 @@
-# Hospital Management Database
+# 🏥 Hospital Management Database
 
 ## Project Overview
 
-This project simulates a hospital management system using SQL Server.
+This project simulates a hospital management system built using SQL Server.
 
-The database manages:
+The database manages hospital operations including patients, doctors, departments, and appointments.
 
-- Patients
-- Doctors
-- Departments
-- Appointments
+---
 
-## Database Schema
+## Entity Relationship Diagram (ERD)
 
-### Tables
+![Hospital ERD](images/Screenshot%202026-05-09%20174124.png)
 
-- Departments
-- Doctors
-- Patients
-- Appointments
+---
+
+## Database Tables
+
+### Departments
+Stores hospital department information.
+
+### Doctors
+Contains doctor details and department assignments.
+
+### Patients
+Stores patient demographic information.
+
+### Appointments
+Tracks appointments between patients and doctors.
+
+---
+
+## Business Questions
+
+- Which doctor handled each appointment?
+- Which patients visited specific departments?
+- What diagnoses were recorded?
+- How much revenue was generated from appointments?
+
+---
 
 ## SQL Concepts Used
 
@@ -27,19 +46,19 @@ The database manages:
 - INNER JOIN
 - LEFT JOIN
 - Filtering
-- Data Retrieval Queries
+- Aggregate Functions
 
-## Example Business Questions
-
-- Which doctor handled each appointment?
-- What appointments belong to a specific department?
-- Which patients visited the hospital?
-- What fees were generated from appointments?
+---
 
 ## Skills Demonstrated
 
 - Database Design
-- Data Modeling
-- Relational Databases
-- SQL Joins
-- Query Optimization
+- Relational Data Modeling
+- SQL Query Development
+- Healthcare Data Analysis
+
+---
+
+## Author
+
+Mohamed Magdy
